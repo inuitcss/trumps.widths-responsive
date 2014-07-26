@@ -1,0 +1,23 @@
+{
+  "name": "inuit-responsive-widths",
+  "version": "0.0.0",
+  "authors": [
+    "Harry Roberts <harry@csswizardry.com>"
+  ],
+  "description": "Responsively controlled width classes for the inuitcss framework",
+  "main": "_trumps.widths-responsive.scss",
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css",
+    "rwd"
+  ],
+  "license": "Apache 2",
+  "homepage": "https://github.com/inuitcss/trumps.widths-responsive",
+  "dependencies": {
+    "inuit-defaults": "~0.2.1",
+    "inuit-responsive-settings": "~0.1.2",
+    "inuit-responsive-tools": "~0.1.1",
+    "inuit-widths": "~0.3.1"
+  }
+}
