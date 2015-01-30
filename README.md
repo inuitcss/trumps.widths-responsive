@@ -1,11 +1,16 @@
 # Widths-responsive
 
 The inuitcss `widths-responsive` module is an extension of the default [`widths`
-module](https://github.com/inuitcss/trumps.widths). 
+module](https://github.com/inuitcss/trumps.widths).
 
 Install using Bower:
 
     $ bower install --save inuit-widths-responsive
+
+Install using npm:
+
+    $ npm install --save inuit-widths-responsive
+
 
 `widths-responsive` will inherit the same settings used for `widths` (i.e.
 namespaces and fraction vs. spoken-word format).
