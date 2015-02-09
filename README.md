@@ -9,7 +9,7 @@ Install using Bower:
 
 Install using npm:
 
-    $ npm install --save inuit-widths-responsive
+    $ npm install --save inuit-responsive-widths
 
 
 `widths-responsive` will inherit the same settings used for `widths` (i.e.
