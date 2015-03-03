@@ -12,10 +12,7 @@ Install using npm:
     $ npm install --save inuit-widths-responsive
 
 
-`widths-responsive` will inherit the same settings used for `widths` (i.e.
-namespaces and fraction vs. spoken-word format).
-
 `widths-responsive` loops through the breakpoints defined in
 `settings.responsive` to generate prefixed breakpoint-based classes. If you are
 using inuitcss’ default breakpoints, you will be given classes like
-`lap-and-up-1/4`, or `desk-one-half`, etc.
+`u-1/4-lap-and-up`, or `u-1-of-2-desk`, etc.
