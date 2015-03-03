@@ -1,6 +1,6 @@
 {
   "name": "inuit-responsive-widths",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Responsively controlled width classes for the inuitcss framework",
   "main": "_trumps.widths-responsive.scss",
   "repository": {
@@ -22,6 +22,7 @@
     "inuit-defaults": "~0.2.1",
     "inuit-responsive-settings": "~0.1.2",
     "inuit-responsive-tools": "~0.1.1",
-    "inuit-widths": "~0.3.1"
+    "inuit-widths": "~0.4.0",
+    "inuit-tools-widths": "~0.1.0"
   }
 }
