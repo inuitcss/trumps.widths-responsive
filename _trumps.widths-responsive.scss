@@ -6,13 +6,14 @@
  * Responsive width classes based on your responsive settings.
  */
 
-// By default we will create halves, thirds, quarters, and fifths. Predefine
-// this Map to override.
+// By default we will create wholes, halves, thirds, quarters, and fifths.
+// Predefine this Map to override.
 $inuit-widths-columns-responsive: (
-  2,
-  3,
-  4,
-  5,
+    1,
+    2,
+    3,
+    4,
+    5,
 ) !default;
 
 // Loop over our breakpoints defined in _settings.responsive.scss
