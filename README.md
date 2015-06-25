@@ -15,4 +15,4 @@ Install using npm:
 `widths-responsive` loops through the breakpoints defined in
 `settings.responsive` to generate prefixed breakpoint-based classes. If you are
 using inuitcss’ default breakpoints, you will be given classes like
-`u-1/4-lap-and-up`, or `u-1-of-2-desk`, etc.
+`u-1/4@lap-and-up`, or `u-1-of-2@desk`, etc.
