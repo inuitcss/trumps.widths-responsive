@@ -27,7 +27,7 @@ $inuit-widths-columns-responsive: (
     // Loop through each of our column sizes and generate its responsive width
     // classes.
     @each $inuit-widths-column in $inuit-widths-columns-responsive {
-      @include inuit-widths($inuit-widths-column, -#{$alias});
+      @include inuit-widths($inuit-widths-column, \@#{$alias});
     }
 
   }
