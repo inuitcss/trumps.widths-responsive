@@ -19,17 +19,17 @@ $inuit-widths-columns-responsive: (
 // Loop over our breakpoints defined in _settings.responsive.scss
 @each $breakpoint in $breakpoints {
 
-  // Get the name of the breakpoint.
-  $alias: nth($breakpoint, 1);
+    // Get the name of the breakpoint.
+    $alias: nth($breakpoint, 1);
 
-  @include media-query($alias) {
+    @include media-query($alias) {
 
-    // Loop through each of our column sizes and generate its responsive width
-    // classes.
-    @each $inuit-widths-column in $inuit-widths-columns-responsive {
-      @include inuit-widths($inuit-widths-column, -#{$alias});
+        // Loop through each of our column sizes and generate its responsive width
+        // classes.
+        @each $inuit-widths-column in $inuit-widths-columns-responsive {
+            @include inuit-widths($inuit-widths-column, \@#{$alias});
+        }
+
     }
-
-  }
 
 }
