@@ -1,5 +1,5 @@
 {
-  "name": "inuit-responsive-widths",
+  "name": "inuit-widths-responsive",
   "version": "0.2.2",
   "description": "Responsively controlled width classes for the inuitcss framework",
   "main": "_trumps.widths-responsive.scss",
